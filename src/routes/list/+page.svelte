@@ -23,7 +23,7 @@
 				<a href="{base}{item.titleURL}">
 					<h4>{item.title}</h4>
 				</a>
-				<a href="{base}{item.sourceURL}">
+				<a href={item.sourceURL}>
 					<p>{item.source}</p>
 				</a>
 			</div>

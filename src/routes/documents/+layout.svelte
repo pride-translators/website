@@ -24,12 +24,12 @@
 		}
 
 		a {
+			color: black;
+
 			.icon {
 				font-size: 35px;
 				transition: transform 0.15s ease-in-out;
 			}
-
-			color: black;
 
 			&:hover {
 				.icon {

@@ -44,10 +44,10 @@
 				<TopicButton selected={false} text="기타" url={`/category?category=others`} />
 			</div>
 
-			<a href="{base}list" class="link-button">아니면 목록으로 보시겠어요?</a>
+			<a href="{base}/list" class="link-button">아니면 목록으로 보시겠어요?</a>
 		{:else}
 			<h4 class="margin-bottom-5px">번역 문서들을 살펴보세요!</h4>
-			<a href="{base}list" class="link-button">목록 보기</a>
+			<a href="{base}/list" class="link-button">목록 보기</a>
 		{/if}
 	</div>
 
