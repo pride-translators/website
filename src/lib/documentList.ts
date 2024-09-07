@@ -73,7 +73,7 @@ const videos: TranslatedDocument[] = [
 const others: TranslatedDocument[] = [
 	{
 		title: '커밍아웃 핸드북',
-		titleURL: '',
+		titleURL: '/documents/others/the-coming-out-handbook',
 		source: 'The Trevor Project',
 		sourceURL: 'https://www.thetrevorproject.org/'
 	}
