@@ -1,7 +1,8 @@
 <script lang="ts">
 	import TopicButton from '$lib/TopicButton.svelte';
-	import { text } from '@sveltejs/kit';
-	import Github from './icons/Github.svelte';
+	import Github from '../lib/icons/Github.svelte';
+
+	const isJsEnabled = typeof window !== 'undefined';
 </script>
 
 <div class="top">
@@ -33,17 +34,20 @@
 	</div>
 
 	<div class="title-section-2">
-		<h4>주제별로 탐색해보세요!</h4>
+		{#if isJsEnabled}
+			<h4>주제별로 탐색해보세요!</h4>
+			<div class="topic-boxes">
+				<TopicButton selected={false} text="트랜스젠더" url={`/category?category=transgender`} />
+				<TopicButton selected={false} text="섹슈얼리티" url={`/category?category=sexuality`} />
+				<TopicButton selected={false} text="영상 번역" url={`/category?category=videos`} />
+				<TopicButton selected={false} text="기타" url={`/category?category=others`} />
+			</div>
 
-		<div class="topic-boxes">
-			<TopicButton text="트랜스젠더" url="/" />
-			<TopicButton text="섹슈얼리티" url="/" />
-			<TopicButton text="커밍아웃" url="/" />
-			<TopicButton text="영상 번역" url="/" />
-			<TopicButton text="기타" url="/" />
-		</div>
-
-		<a href="/list" class="link-button">아니면 목록으로 보시겠어요?</a>
+			<a href="/list" class="link-button">아니면 목록으로 보시겠어요?</a>
+		{:else}
+			<h4 class="margin-bottom-5px">번역 문서들을 살펴보세요!</h4>
+			<a href="/list" class="link-button">목록 보기</a>
+		{/if}
 	</div>
 
 	<div class="title-section-2 max-width-490">
@@ -111,6 +115,9 @@
 			margin: 0;
 		}
 
+		.margin-bottom-5px {
+			margin-bottom: 15px;
+		}
 		.padding-top-30 {
 			margin-top: 30px;
 		}
@@ -146,6 +153,7 @@
 	}
 
 	.topic-boxes {
+		margin: 15px 0px 30px 0px;
 		@media only screen and (min-width: 591px) {
 			display: flex;
 			flex-direction: row;
@@ -159,7 +167,5 @@
 			justify-content: center;
 			row-gap: 10px;
 		}
-
-		margin: 15px 0px 30px 0px;
 	}
 </style>

@@ -1,12 +1,19 @@
 <script lang="ts">
 	export let text: string;
 	export let url: string;
+	export let selected: boolean;
 </script>
 
 <a href={url} class="no-text-decoration">
-	<div class="topic-box topic-button">
-		<p>{text}</p>
-	</div>
+	{#if selected}
+		<div class="topic-box topic-button-selected">
+			<p>{text}</p>
+		</div>
+	{:else}
+		<div class="topic-box topic-button">
+			<p>{text}</p>
+		</div>
+	{/if}
 </a>
 
 <style lang="scss">
@@ -29,6 +36,11 @@
 			color: white;
 			background-color: black;
 		}
+	}
+
+	.topic-button-selected {
+		color: #efefef;
+		background-color: black;
 	}
 
 	.no-text-decoration {
