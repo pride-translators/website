@@ -4,6 +4,7 @@
 	import { Category, type FullList, type TranslatedDocument } from '$lib/types';
 	import { page } from '$app/stores';
 	import { fullList } from '$lib/documentList';
+	import { base } from '$app/paths';
 
 	let selectedOption: Category;
 	let list: TranslatedDocument[];
@@ -42,7 +43,7 @@
 
 <div class="wrapper">
 	<div class="top-bar">
-		<a href="/" class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
+		<a href={base} class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
 
 		<div class="topic-boxes">
 			<TopicButton
@@ -71,10 +72,10 @@
 	<div class="list">
 		{#each list as item}
 			<div class="list-item">
-				<a href={item.titleURL}>
+				<a href="{base}{item.titleURL}">
 					<h4>{item.title}</h4>
 				</a>
-				<a href={item.sourceURL}>
+				<a href="{base}{item.sourceURL}">
 					<p>{item.source}</p>
 				</a>
 			</div>

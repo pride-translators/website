@@ -2,9 +2,10 @@
 	export let text: string;
 	export let url: string;
 	export let selected: boolean;
+	import { base } from '$app/paths';
 </script>
 
-<a href={url} class="no-text-decoration">
+<a href="{base}{url}" class="no-text-decoration">
 	{#if selected}
 		<div class="topic-box topic-button-selected">
 			<p>{text}</p>
