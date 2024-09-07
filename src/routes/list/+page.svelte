@@ -14,7 +14,7 @@
 
 <div class="wrapper">
 	<div class="top-bar">
-		<a href={base} class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
+		<a href="{base}/" class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
 	</div>
 
 	<div class="list">
@@ -90,12 +90,14 @@
 					font-size: 20px;
 					font-weight: 600;
 					color: black;
+					text-decoration-color: currentColor;
 				}
 
 				p {
 					margin: 12px 0px;
 					font-size: 14px;
 					color: black;
+					text-decoration-color: currentColor;
 				}
 			}
 		}
