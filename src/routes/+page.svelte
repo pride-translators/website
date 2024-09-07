@@ -94,7 +94,7 @@
 		}
 
 		.headings {
-			font-size: 28px;
+			font-size: 24px;
 			display: flex;
 			flex-direction: column;
 			gap: 0;
