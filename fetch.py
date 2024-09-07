@@ -84,11 +84,11 @@ sexuality_docs = [
         dest_dir="./src/routes/documents/sexuality/understanding_asexuality",
         replacements=None
     ),
-    Document(
-        src_dir="./documents/sexuality-learning-resources/scientific_american/asexuality_is_finally_breaking_free_from_medical_stigma/asexuality_is_finally_breaking_free_from_medical_stigma.md",
-        dest_dir="./src/routes/documents/sexuality/asexuality_is_finally_breaking_free_from_medical_stigma",
-        replacements=None
-    ),
+    # Document(
+    #     src_dir="./documents/sexuality-learning-resources/scientific_american/asexuality_is_finally_breaking_free_from_medical_stigma/asexuality_is_finally_breaking_free_from_medical_stigma.md",
+    #     dest_dir="./src/routes/documents/sexuality/asexuality_is_finally_breaking_free_from_medical_stigma",
+    #     replacements=None
+    # ),
 ]
 
 
@@ -111,11 +111,11 @@ video_docs = [
 ]
 
 other_docs = [
-    Document(
-        src_dir="./documents/the-coming-out-handbook/README.md",
-        dest_dir="./src/routes/documents/others/the-coming-out-handbook",
-        replacements=None
-    ),
+    # Document(
+    #     src_dir="./documents/the-coming-out-handbook/README.md",
+    #     dest_dir="./src/routes/documents/others/the-coming-out-handbook",
+    #     replacements=None
+    # ),
 ]
 
 
