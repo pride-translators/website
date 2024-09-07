@@ -135,11 +135,13 @@
 				box-sizing: border-box;
 				transition: all 0.15s ease-in-out;
 
+				a {
+					color: black;
+				}
 				h4 {
 					margin: 12px 0px;
 					font-size: 20px;
 					font-weight: 600;
-					text-decoration-color: currentColor;
 					color: black;
 				}
 
@@ -147,7 +149,6 @@
 					margin: 12px 0px;
 					font-size: 14px;
 					color: black;
-					text-decoration-color: currentColor;
 				}
 			}
 		}
