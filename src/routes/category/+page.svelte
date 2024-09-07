@@ -11,8 +11,6 @@
 	$: {
 		const category = $page.url.searchParams.get('category');
 
-		console.log(category);
-
 		if (category) {
 			switch (category) {
 				case Category.Transgender: {
@@ -43,7 +41,7 @@
 
 <div class="wrapper">
 	<div class="top-bar">
-		<a href={base} class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
+		<a href="{base}/" class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
 
 		<div class="topic-boxes">
 			<TopicButton
@@ -141,6 +139,7 @@
 					margin: 12px 0px;
 					font-size: 20px;
 					font-weight: 600;
+					text-decoration-color: currentColor;
 					color: black;
 				}
 
@@ -148,6 +147,7 @@
 					margin: 12px 0px;
 					font-size: 14px;
 					color: black;
+					text-decoration-color: currentColor;
 				}
 			}
 		}
