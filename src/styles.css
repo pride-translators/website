@@ -25,3 +25,7 @@
 .no-decoration:visited {
 	text-decoration: none;
 }
+
+a {
+	color: #717171;
+}
