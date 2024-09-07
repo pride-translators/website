@@ -71,7 +71,8 @@
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		height: 125vh;
+		/* height: 125vh; */
+		min-height: 1300px;
 	}
 
 	.max-width-690 {
@@ -114,7 +115,6 @@
 			font-weight: 600;
 			margin: 0;
 		}
-
 		.margin-bottom-5px {
 			margin-bottom: 15px;
 		}

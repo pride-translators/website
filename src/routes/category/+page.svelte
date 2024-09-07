@@ -88,6 +88,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 50px;
 
 		@media only screen and (max-width: 590px) {
 			justify-content: stretch;
@@ -97,6 +98,7 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			width: 100%;
 
 			margin-bottom: 30px;
 

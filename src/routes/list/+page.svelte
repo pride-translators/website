@@ -1,75 +1,23 @@
 <script lang="ts">
-	import Close from '$lib/icons/Close.svelte';
-	import TopicButton from '$lib/TopicButton.svelte';
-	import { Category, type FullList, type TranslatedDocument } from '$lib/types';
-	import { page } from '$app/stores';
 	import { fullList } from '$lib/documentList';
+	import Close from '$lib/icons/Close.svelte';
+	import type { FullList, TranslatedDocument } from '$lib/types';
 
-	let selectedOption: Category;
-	let list: TranslatedDocument[];
-	$: {
-		const category = $page.url.searchParams.get('category');
-
-		console.log(category);
-
-		if (category) {
-			switch (category) {
-				case Category.Transgender: {
-					selectedOption = Category.Transgender;
-					break;
-				}
-				case Category.Sexuality: {
-					selectedOption = Category.Sexuality;
-					break;
-				}
-				case Category.Videos: {
-					selectedOption = Category.Videos;
-					break;
-				}
-				case Category.Others: {
-					selectedOption = Category.Others;
-					break;
-				}
-
-				default:
-					break;
-			}
+	const newList: TranslatedDocument[] = [];
+	for (const key of Object.keys(fullList)) {
+		for (const item of fullList[key as keyof FullList]) {
+			newList.push(item);
 		}
-
-		list = fullList[selectedOption as keyof FullList];
 	}
 </script>
 
 <div class="wrapper">
 	<div class="top-bar">
 		<a href="/" class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
-
-		<div class="topic-boxes">
-			<TopicButton
-				selected={selectedOption === Category.Transgender}
-				text="트랜스젠더"
-				url={`/category?category=transgender`}
-			/>
-			<TopicButton
-				selected={selectedOption === Category.Sexuality}
-				text="섹슈얼리티"
-				url={`/category?category=sexuality`}
-			/>
-			<TopicButton
-				selected={selectedOption === Category.Videos}
-				text="영상 번역"
-				url={`/category?category=videos`}
-			/>
-			<TopicButton
-				selected={selectedOption === Category.Others}
-				text="기타"
-				url={`/category?category=others`}
-			/>
-		</div>
 	</div>
 
 	<div class="list">
-		{#each list as item}
+		{#each newList as item}
 			<div class="list-item">
 				<a href={item.titleURL}>
 					<h4>{item.title}</h4>
@@ -88,6 +36,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 50px;
 
 		@media only screen and (max-width: 590px) {
 			justify-content: stretch;
@@ -97,6 +46,7 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			width: 100%;
 
 			margin-bottom: 30px;
 
@@ -147,23 +97,6 @@
 					color: black;
 				}
 			}
-		}
-	}
-
-	.topic-boxes {
-		margin: 15px 0px 0px 0px;
-		@media only screen and (min-width: 591px) {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			column-gap: 10px;
-			width: 98vw;
-		}
-		@media only screen and (max-width: 590px) {
-			display: flex;
-			flex-direction: column;
-			align-items: stretch;
-			row-gap: 10px;
 		}
 	}
 
