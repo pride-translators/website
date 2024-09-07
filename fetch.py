@@ -3,9 +3,10 @@ import os
 import shutil
 import subprocess
 
-shutil.rmtree('./documents', ignore_errors=True)
-os.makedirs('./documents')
-os.chdir('./documents')
+
+shutil.rmtree("./documents", ignore_errors=True)
+os.makedirs("./documents")
+os.chdir("./documents")
 
 # Clone repositories.
 repos = [
@@ -20,9 +21,27 @@ for repo in repos:
     subprocess.run(
         ["git", "clone", f"https://github.com/pride-translators/{repo}"])
 
-os.chdir('..')
+os.chdir("..")
 
-shutil.rmtree('./src/routes/documents', ignore_errors=True)
+
+def empty_folder_exclude_file(folder_path, file_to_keep):
+    if not os.path.exists(folder_path):
+        raise FileNotFoundError(f"The folder {folder_path} does not exist.")
+
+    # Get a list of all files and directories in the folder
+    items = os.listdir(folder_path)
+
+    for item in items:
+        item_path = os.path.join(folder_path, item)
+        if item != file_to_keep:
+            if os.path.isfile(item_path):
+                os.remove(item_path)  # Remove the file
+            elif os.path.isdir(item_path):
+                # Remove the directory and its contents
+                shutil.rmtree(item_path)
+
+
+empty_folder_exclude_file("./src/routes/documents", "+layout.svelte")
 
 
 class Document(TypedDict):
@@ -106,7 +125,7 @@ def move_documents(docs: list[Document]):
         os.makedirs(item["dest_dir"], exist_ok=True)
 
         src_file = os.path.join(item["src_dir"])
-        dest_file = os.path.join(item["dest_dir"], '+page.md')
+        dest_file = os.path.join(item["dest_dir"], "+page.md")
 
         shutil.move(src_file, dest_file)
 
@@ -116,4 +135,5 @@ move_documents(sexuality_docs)
 move_documents(video_docs)
 move_documents(other_docs)
 
-shutil.rmtree('./documents', ignore_errors=True)
+
+shutil.rmtree("./documents", ignore_errors=True)
