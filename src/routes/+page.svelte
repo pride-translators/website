@@ -138,10 +138,6 @@
 	.link-button {
 		color: var(--link-color);
 		transition: color 0.15s ease-in-out;
-
-		&:hover {
-			color: black;
-		}
 	}
 
 	.button {
