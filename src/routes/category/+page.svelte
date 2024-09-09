@@ -5,6 +5,14 @@
 	import { page } from '$app/stores';
 	import { fullList } from '$lib/documentList';
 	import { base } from '$app/paths';
+	import { browser } from '$app/environment';
+
+	let isDark: boolean;
+	$: if (browser) {
+		const colorSchemeQueryList = window.matchMedia('(prefers-color-scheme: dark)').matches;
+		isDark = colorSchemeQueryList;
+	}
+	const closeButtonColor = ['#efefef', '#2f2f2f'];
 
 	let selectedOption: Category;
 	let list: TranslatedDocument[];
@@ -45,7 +53,7 @@
 <div class="wrapper">
 	<div class="top-bar">
 		<div class="flex-right width-100">
-			<a href="{base}/"><Close height="50px" color="var(--link-color)" /></a>
+			<a href="{base}/"><Close height="50px" color="var(--box-color)" /></a>
 		</div>
 
 		<div class="topic-boxes">

@@ -11,8 +11,8 @@
 		height="61.1883"
 		rx="2.69948"
 		transform="rotate(45 62.991 19.7245)"
-		fill="#{color}}"
-		style="fill:{color};fill:color(display-p3 0.8510 0.8510 0.8510);fill-opacity:1;"
+		fill={color}
+		style="fill:{color};fill-opacity:1;"
 	/>
 	<rect
 		x="19.7244"
@@ -22,6 +22,6 @@
 		rx="2.69948"
 		transform="rotate(-45 19.7244 23.5421)"
 		fill={color}
-		style="fill:{color};fill:color(display-p3 0.8510 0.8510 0.8510);fill-opacity:1;"
+		style="fill:{color};fill-opacity:1;"
 	/>
 </svg>
