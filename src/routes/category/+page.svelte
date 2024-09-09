@@ -33,6 +33,9 @@
 				default:
 					break;
 			}
+		} else if (!category) {
+			$page.url.searchParams.set('category', 'transgender');
+			selectedOption = Category.Transgender;
 		}
 
 		list = fullList[selectedOption as keyof FullList];
