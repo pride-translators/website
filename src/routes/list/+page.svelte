@@ -54,7 +54,7 @@
 			margin-bottom: 30px;
 
 			@media only screen and (min-width: 591px) {
-				max-width: 700px;
+				max-width: 590px;
 			}
 			@media only screen and (max-width: 590px) {
 				width: 100%;
@@ -72,7 +72,7 @@
 			row-gap: 20px;
 
 			@media only screen and (min-width: 591px) {
-				max-width: 560px;
+				max-width: 545px;
 			}
 			@media only screen and (max-width: 590px) {
 				justify-content: stretch;
