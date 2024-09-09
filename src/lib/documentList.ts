@@ -76,6 +76,12 @@ const others: TranslatedDocument[] = [
 		titleURL: '/documents/others/the-coming-out-handbook',
 		source: 'The Trevor Project',
 		sourceURL: 'https://www.thetrevorproject.org/'
+	},
+	{
+		title: 'LGBTIQ 공동체 깃발',
+		titleURL: '/documents/others/flags-of-the-lgbtqia-community',
+		source: 'Outright International',
+		sourceURL: 'https://outrightinternational.org/'
 	}
 ];
 

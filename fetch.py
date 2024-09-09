@@ -15,7 +15,7 @@ repositories = [
     "sexuality-learning-resources",
     "the-coming-out-handbook",
     "lgbtqia-videos",
-    "flags-of-the-lgbtqia-community"
+    "flags-of-the-lgbtqia-community",
 ]
 for repository in repositories:
     subprocess.run([
@@ -133,6 +133,13 @@ other_docs = [
         replacements=[
             ("./attachments", f"{path}/the-coming-out-handbook")],
         attachment_folder_name="the-coming-out-handbook"
+    ),
+    Document(
+        source_file_directory="./documents/flags-of-the-lgbtqia-community/README.md",
+        destination_file_directory="./src/routes/documents/others/flags-of-the-lgbtqia-community/+page.md",
+        replacements=[
+            ("./attachments", f"{path}/flags-of-the-lgbtqia-community")],
+        attachment_folder_name="flags-of-the-lgbtqia-community"
     ),
 ]
 

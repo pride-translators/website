@@ -4,8 +4,9 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"prebuild": "python3 ./fetch.py",
-		"build": "vite build",
+		"fetch": "python3 ./fetch.py",
+		"dev-fetch": "python3 ./fetch.py dev",
+		"build": "npm run fetch && vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
