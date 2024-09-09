@@ -70,7 +70,7 @@
 			row-gap: 20px;
 
 			@media only screen and (min-width: 591px) {
-				max-width: 650px;
+				max-width: 560px;
 			}
 			@media only screen and (max-width: 590px) {
 				justify-content: stretch;
