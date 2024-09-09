@@ -14,7 +14,9 @@
 
 <div class="wrapper">
 	<div class="top-bar">
-		<a href="{base}/" class="flex-right width-100"><div class=""><Close height="50px" /></div></a>
+		<div class="flex-right width-100">
+			<a href="{base}/"><Close height="50px" /></a>
+		</div>
 	</div>
 
 	<div class="list">
