@@ -40,13 +40,13 @@ const sexuality: TranslatedDocument[] = [
 		titleURL: '/documents/sexuality/understanding_asexuality',
 		source: 'The Trevor Project',
 		sourceURL: 'https://www.thetrevorproject.org/'
+	},
+	{
+		title: '무성애가 마침내 의료적 낙인에서 벗어나고 있다',
+		titleURL: '/documents/sexuality/asexuality_is_finally_breaking_free_from_medical_stigma',
+		source: 'Scientific American',
+		sourceURL: 'https://www.scientificamerican.com/'
 	}
-	// {
-	// 	title: '무성애가 마침내 의료적 낙인에서 벗어나고 있다',
-	// 	titleURL: '/documents/sexuality/asexuality_is_finally_breaking_free_from_medical_stigma',
-	// 	source: 'Scientific American',
-	// 	sourceURL: 'https://www.scientificamerican.com/'
-	// }
 ];
 
 const videos: TranslatedDocument[] = [
@@ -71,12 +71,12 @@ const videos: TranslatedDocument[] = [
 	}
 ];
 const others: TranslatedDocument[] = [
-	// {
-	// 	title: '커밍아웃 핸드북',
-	// 	titleURL: '/documents/others/the-coming-out-handbook',
-	// 	source: 'The Trevor Project',
-	// 	sourceURL: 'https://www.thetrevorproject.org/'
-	// }
+	{
+		title: '커밍아웃 핸드북',
+		titleURL: '/documents/others/the-coming-out-handbook',
+		source: 'The Trevor Project',
+		sourceURL: 'https://www.thetrevorproject.org/'
+	}
 ];
 
 export const fullList: FullList = {

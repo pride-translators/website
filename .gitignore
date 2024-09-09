@@ -24,3 +24,4 @@ vite.config.ts.timestamp-*
 /documents/*
 /src/routes/documents/*
 !/src/routes/documents/+layout.svelte
+static/*/
