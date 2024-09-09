@@ -26,6 +26,27 @@
 	text-decoration: none;
 }
 
+:root {
+	--background-color: white;
+	--text-color: black;
+	--box-color-selected: white;
+	--box-color: #efefef;
+	--box-color-selected: black;
+	--link-color: #717171;
+
+	@media (prefers-color-scheme: dark) {
+		--background-color: rgb(13, 13, 13);
+		--text-color: white;
+		--text-color-selected: black;
+		--box-color: #2f2f2f;
+		--box-color-selected: #ffffff;
+		--link-color: #d0d0d0;
+	}
+
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
 a {
-	color: #717171;
+	color: var(--link-color);
 }

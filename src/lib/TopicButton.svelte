@@ -28,20 +28,20 @@
 	}
 
 	.topic-button {
-		color: black;
-		background-color: #efefef;
+		color: var(--text-color);
+		background-color: var(--box-color);
 
 		transition: all 0.15s ease-in-out;
 
 		&:hover {
-			color: white;
-			background-color: black;
+			color: var(--text-color-selected);
+			background-color: var(--box-color-selected);
 		}
 	}
 
 	.topic-button-selected {
-		color: #efefef;
-		background-color: black;
+		color: var(--box-color);
+		background-color: var(--box-color-selected);
 	}
 
 	.no-text-decoration {

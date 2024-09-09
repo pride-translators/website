@@ -15,7 +15,7 @@
 <div class="wrapper">
 	<div class="top-bar">
 		<div class="flex-right width-100">
-			<a href="{base}/"><Close height="50px" /></a>
+			<a href="{base}/"><Close height="50px" color="var(--link-color)" /></a>
 		</div>
 	</div>
 
@@ -82,7 +82,7 @@
 				width: 100%;
 				padding: 10px 30px;
 
-				background-color: #efefef;
+				background-color: var(--box-color);
 				border-radius: 40px;
 				box-sizing: border-box;
 				transition: all 0.15s ease-in-out;
@@ -91,14 +91,14 @@
 					margin: 12px 0px;
 					font-size: 20px;
 					font-weight: 600;
-					color: black;
+					color: var(--text-color);
 					text-decoration-color: currentColor;
 				}
 
 				p {
 					margin: 12px 0px;
 					font-size: 14px;
-					color: black;
+					color: var(--text-color);
 					text-decoration-color: currentColor;
 				}
 			}

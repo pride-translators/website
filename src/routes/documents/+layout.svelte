@@ -34,7 +34,7 @@
 		}
 
 		a {
-			color: black;
+			color: var(--text-color);
 
 			.icon {
 				font-size: 35px;

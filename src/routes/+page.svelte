@@ -60,7 +60,7 @@
 
 		<div class="buttons">
 			<a href="https://github.com/pride-translators" class="button padding-top-30"
-				><Github height="35px" /></a
+				><Github height="35px" color="var(--text-color)" /></a
 			>
 		</div>
 	</div>
@@ -136,7 +136,7 @@
 	}
 
 	.link-button {
-		color: #717171;
+		color: var(--link-color);
 		transition: color 0.15s ease-in-out;
 
 		&:hover {

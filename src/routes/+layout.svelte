@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title>프라이드 번역가</title>
-	<meta name="theme-color" content="#FFFFFF" />
+	<meta name="theme-color" content="#959595" />
 	<meta name="description" content="LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들." />
 
 	<meta property="og:type" content="website" />
