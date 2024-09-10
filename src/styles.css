@@ -29,6 +29,7 @@
 :root {
 	--background-color: white;
 	--text-color: black;
+	--text-color-selected: white;
 	--box-color-selected: white;
 	--box-color: #efefef;
 	--box-color-selected: black;
