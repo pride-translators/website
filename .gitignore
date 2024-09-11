@@ -21,7 +21,11 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 .vscode
+
 /documents/*
 /src/routes/documents/*
 !/src/routes/documents/+layout.svelte
+!/src/routes/documents/+layout.ts
+!/src/routes/documents/+layout.server.ts
+
 static/*/

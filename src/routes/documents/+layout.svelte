@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import '../../lib/document.css';
+
+	export let data;
+	const { title } = data;
 </script>
 
 <div class="center">
@@ -15,6 +18,12 @@
 		<slot />
 	</div>
 </div>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta property="og:title" content={title} />
+	<meta name="twitter:title" content={title} />
+</svelte:head>
 
 <style lang="scss">
 	.center {

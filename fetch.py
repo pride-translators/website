@@ -26,7 +26,7 @@ for repository in repositories:
 os.chdir("..")
 
 
-def empty_folder_with_exluding_names(folder_path: str, names_to_keep: list[str]):
+def empty_folder_with_excluding_names(folder_path: str, names_to_keep: list[str]):
     if not os.path.exists(folder_path):
         raise FileNotFoundError(f"The folder {folder_path} does not exist.")
 
@@ -42,9 +42,9 @@ def empty_folder_with_exluding_names(folder_path: str, names_to_keep: list[str])
                 shutil.rmtree(item_path)
 
 
-empty_folder_with_exluding_names(
+empty_folder_with_excluding_names(
     "./src/routes/documents",
-    ["+layout", "+layout.svelte", "+page.server.ts"]
+    ["+layout", "+layout.svelte", "+layout.ts", "+layout.server.ts"]
 )
 
 
