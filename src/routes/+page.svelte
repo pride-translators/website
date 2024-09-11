@@ -151,12 +151,12 @@
 
 	.topic-boxes {
 		margin: 15px 0px 30px 0px;
+
 		@media only screen and (min-width: 591px) {
 			display: flex;
 			flex-direction: row;
 			justify-content: center;
 			column-gap: 10px;
-			width: 98vw;
 		}
 		@media only screen and (max-width: 590px) {
 			display: flex;
