@@ -1,5 +1,5 @@
 export enum Category {
-	Transgender = 'transgender',
+	Gender = 'gender',
 	Sexuality = 'sexuality',
 	Videos = 'videos',
 	Others = 'others'
@@ -13,7 +13,7 @@ export interface TranslatedDocument {
 }
 
 export interface FullList {
-	transgender: TranslatedDocument[];
+	gender: TranslatedDocument[];
 	sexuality: TranslatedDocument[];
 	videos: TranslatedDocument[];
 	others: TranslatedDocument[];

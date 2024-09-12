@@ -21,8 +21,8 @@
 
 		if (category) {
 			switch (category) {
-				case Category.Transgender: {
-					selectedOption = Category.Transgender;
+				case Category.Gender: {
+					selectedOption = Category.Gender;
 					break;
 				}
 				case Category.Sexuality: {
@@ -42,8 +42,8 @@
 					break;
 			}
 		} else if (!category) {
-			$page.url.searchParams.set('category', 'transgender');
-			selectedOption = Category.Transgender;
+			$page.url.searchParams.set('category', 'gender');
+			selectedOption = Category.Gender;
 		}
 
 		list = fullList[selectedOption as keyof FullList];
@@ -58,9 +58,9 @@
 
 		<div class="topic-boxes">
 			<TopicButton
-				selected={selectedOption === Category.Transgender}
-				text="트랜스젠더"
-				url={`/category?category=transgender`}
+				selected={selectedOption === Category.Gender}
+				text="젠더"
+				url={`/category?category=gender`}
 			/>
 			<TopicButton
 				selected={selectedOption === Category.Sexuality}

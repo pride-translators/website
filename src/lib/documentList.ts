@@ -1,6 +1,6 @@
 import type { FullList, TranslatedDocument } from './types';
 
-const transgender: TranslatedDocument[] = [
+const gender: TranslatedDocument[] = [
 	{
 		title: '트랜스젠더에 대해 자주 질문되는 내용들',
 		titleURL: '/documents/transgender/frequently_asked_questions_about_transgender_people',
@@ -86,7 +86,7 @@ const others: TranslatedDocument[] = [
 ];
 
 export const fullList: FullList = {
-	transgender,
+	gender,
 	sexuality,
 	videos,
 	others

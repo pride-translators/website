@@ -38,7 +38,7 @@
 		{#if isJsEnabled}
 			<h4>주제별로 탐색해보세요!</h4>
 			<div class="topic-boxes">
-				<TopicButton selected={false} text="트랜스젠더" url={`/category?category=transgender`} />
+				<TopicButton selected={false} text="젠더" url={`/category?category=gender`} />
 				<TopicButton selected={false} text="섹슈얼리티" url={`/category?category=sexuality`} />
 				<TopicButton selected={false} text="영상 번역" url={`/category?category=videos`} />
 				<TopicButton selected={false} text="기타" url={`/category?category=others`} />
