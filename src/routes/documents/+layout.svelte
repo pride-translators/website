@@ -20,7 +20,7 @@
 </div>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>프라이드 번역가 - {title}</title>
 	<meta property="og:title" content={title} />
 	<meta name="twitter:title" content={title} />
 </svelte:head>
