@@ -5,12 +5,12 @@
 	import { base } from '$app/paths';
 	import { browser } from '$app/environment';
 
-	let isDark: boolean;
+	let isDark: boolean = false;
 	$: if (browser) {
 		const colorSchemeQueryList = window.matchMedia('(prefers-color-scheme: dark)').matches;
 		isDark = colorSchemeQueryList;
 	}
-	const closeButtonColor = ['#efefef', '#2f2f2f'];
+	const closeButtonColor = ['#d0d0d0', '#717171'];
 
 	const newList: TranslatedDocument[] = [];
 	for (const key of Object.keys(fullList)) {
