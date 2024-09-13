@@ -5,13 +5,6 @@
 	import { base } from '$app/paths';
 	import { browser } from '$app/environment';
 
-	let isDark: boolean = false;
-	$: if (browser) {
-		const colorSchemeQueryList = window.matchMedia('(prefers-color-scheme: dark)').matches;
-		isDark = colorSchemeQueryList;
-	}
-	const closeButtonColor = ['#d0d0d0', '#717171'];
-
 	const newList: TranslatedDocument[] = [];
 	for (const key of Object.keys(fullList)) {
 		for (const item of fullList[key as keyof FullList]) {
@@ -23,9 +16,7 @@
 <div class="wrapper">
 	<div class="top-bar">
 		<div class="flex-right width-100">
-			<a href="{base}/"
-				><Close height="50px" color={isDark ? closeButtonColor[1] : closeButtonColor[0]} /></a
-			>
+			<a href="{base}/"><Close height="50px" /></a>
 		</div>
 	</div>
 
