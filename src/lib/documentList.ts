@@ -8,17 +8,17 @@ const gender: TranslatedDocument[] = [
 		sourceURL: 'https://transequality.org/'
 	},
 	{
-		title: '트랜스젠더, 젠더 정체성, 그리고 젠더 표현에 대해 이해하기',
-		titleURL: '/documents/transgender/transgender_people_gender_identity_gender_expression',
-		source: 'American Psychological Association',
-		sourceURL: 'https://www.apa.org/'
-	},
-	{
 		title: '논바이너리들 이해하기: 존중하고 지지해주는 방법',
 		titleURL:
 			'/documents/transgender/understanding_nonbinary_people_how_to_be_respectful_and_supportive',
 		source: 'National Center for Transgender Equality',
 		sourceURL: 'https://transequality.org/'
+	},
+	{
+		title: '트랜스젠더, 젠더 정체성, 그리고 젠더 표현에 대해 이해하기',
+		titleURL: '/documents/transgender/transgender_people_gender_identity_gender_expression',
+		source: 'American Psychological Association',
+		sourceURL: 'https://www.apa.org/'
 	}
 ];
 
@@ -30,16 +30,16 @@ const sexuality: TranslatedDocument[] = [
 		sourceURL: 'https://www.betterhealth.vic.gov.au/'
 	},
 	{
-		title: '무성애자 공동체 이해하기',
-		titleURL: '/documents/sexuality/understanding_the_asexual_community',
-		source: 'Human Rights Campaign',
-		sourceURL: 'https://www.hrc.org/'
-	},
-	{
 		title: '무성애 이해하기',
 		titleURL: '/documents/sexuality/understanding_asexuality',
 		source: 'The Trevor Project',
 		sourceURL: 'https://www.thetrevorproject.org/'
+	},
+	{
+		title: '무성애자 공동체 이해하기',
+		titleURL: '/documents/sexuality/understanding_the_asexual_community',
+		source: 'Human Rights Campaign',
+		sourceURL: 'https://www.hrc.org/'
 	},
 	{
 		title: '무성애가 마침내 의료적 낙인에서 벗어나고 있다',
@@ -57,17 +57,17 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@CNN'
 	},
 	{
-		title: '저는 트랜스젠더예요',
-		titleURL: '/documents/videos/im_transgender',
-		source: 'stodybooth',
-		sourceURL: 'https://www.youtube.com/@Storybooth'
-	},
-	{
 		title: '트랜스젠더, 젠더 불쾌감, 그리고 젠더 획일화 치료에 대해 학계는 어떻게 말하는가',
 		titleURL:
 			'/documents/videos/what-studies-say-about-transgender-gender-dysphoria-and-gender-affirming-care',
 		source: 'Doctor Youn',
 		sourceURL: 'https://www.youtube.com/@DoctorYoun'
+	},
+	{
+		title: '저는 트랜스젠더예요',
+		titleURL: '/documents/videos/im_transgender',
+		source: 'stodybooth',
+		sourceURL: 'https://www.youtube.com/@Storybooth'
 	}
 ];
 const others: TranslatedDocument[] = [
