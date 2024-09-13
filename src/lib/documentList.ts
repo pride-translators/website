@@ -2,21 +2,27 @@ import type { FullList, TranslatedDocument } from './types';
 
 const gender: TranslatedDocument[] = [
 	{
+		title: '젠더 정체성 이해하기',
+		titleURL: '/documents/gender/understanding_gender_identities',
+		source: 'The Trevor Project',
+		sourceURL: 'https://www.thetrevorproject.org/'
+	},
+	{
 		title: '트랜스젠더에 대해 자주 질문되는 내용들',
-		titleURL: '/documents/transgender/frequently_asked_questions_about_transgender_people',
+		titleURL: '/documents/gender/frequently_asked_questions_about_transgender_people',
 		source: 'National Center for Transgender Equality',
 		sourceURL: 'https://transequality.org/'
 	},
 	{
 		title: '논바이너리들 이해하기: 존중하고 지지해주는 방법',
 		titleURL:
-			'/documents/transgender/understanding_nonbinary_people_how_to_be_respectful_and_supportive',
+			'/documents/gender/understanding_nonbinary_people_how_to_be_respectful_and_supportive',
 		source: 'National Center for Transgender Equality',
 		sourceURL: 'https://transequality.org/'
 	},
 	{
 		title: '트랜스젠더, 젠더 정체성, 그리고 젠더 표현에 대해 이해하기',
-		titleURL: '/documents/transgender/transgender_people_gender_identity_gender_expression',
+		titleURL: '/documents/gender/transgender_people_gender_identity_gender_expression',
 		source: 'American Psychological Association',
 		sourceURL: 'https://www.apa.org/'
 	}

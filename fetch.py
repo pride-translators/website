@@ -11,7 +11,7 @@ shutil.rmtree("./documents", ignore_errors=True)
 os.makedirs("./documents")
 os.chdir("./documents")
 repositories = [
-    "transgender-learning-resources",
+    "gender-learning-resources",
     "sexuality-learning-resources",
     "the-coming-out-handbook",
     "lgbtqia-videos",
@@ -55,22 +55,28 @@ class Document(TypedDict):
     attachment_folder_name: str | None
 
 
-transgender_docs = [
+gender_docs = [
     Document(
-        source_file_directory="./documents/transgender-learning-resources/NCTE/frequently_asked_questions_about_transgender_people.md",
-        destination_file_directory="./src/routes/documents/transgender/frequently_asked_questions_about_transgender_people/+page.md",
+        source_file_directory="./documents/gender-learning-resources/the_trevor_project/understanding_gender_identities.md",
+        destination_file_directory="./src/routes/documents/gender/understanding_gender_identities/+page.md",
         replacements=None,
         attachment_folder_name=None,
     ),
     Document(
-        source_file_directory="./documents/transgender-learning-resources/NCTE/understanding_nonbinary_people_how_to_be_respectful_and_supportive.md",
-        destination_file_directory="./src/routes/documents/transgender/understanding_nonbinary_people_how_to_be_respectful_and_supportive/+page.md",
+        source_file_directory="./documents/gender-learning-resources/NCTE/frequently_asked_questions_about_transgender_people.md",
+        destination_file_directory="./src/routes/documents/gender/frequently_asked_questions_about_transgender_people/+page.md",
         replacements=None,
         attachment_folder_name=None,
     ),
     Document(
-        source_file_directory="./documents/transgender-learning-resources/APA/transgender_people_gender_identity_gender_expression.md",
-        destination_file_directory="./src/routes/documents/transgender/transgender_people_gender_identity_gender_expression/+page.md",
+        source_file_directory="./documents/gender-learning-resources/NCTE/understanding_nonbinary_people_how_to_be_respectful_and_supportive.md",
+        destination_file_directory="./src/routes/documents/gender/understanding_nonbinary_people_how_to_be_respectful_and_supportive/+page.md",
+        replacements=None,
+        attachment_folder_name=None,
+    ),
+    Document(
+        source_file_directory="./documents/gender-learning-resources/APA/transgender_people_gender_identity_gender_expression.md",
+        destination_file_directory="./src/routes/documents/gender/transgender_people_gender_identity_gender_expression/+page.md",
         replacements=None,
         attachment_folder_name=None,
     )
@@ -156,7 +162,7 @@ def move_documents(docs: list[Document]):
         )
 
 
-move_documents(transgender_docs)
+move_documents(gender_docs)
 move_documents(sexuality_docs)
 move_documents(video_docs)
 move_documents(other_docs)
@@ -177,7 +183,7 @@ def replace_text(docs: list[Document]):
             file.write(content)
 
 
-replace_text(transgender_docs)
+replace_text(gender_docs)
 replace_text(sexuality_docs)
 replace_text(video_docs)
 replace_text(other_docs)
@@ -201,7 +207,7 @@ def move_attachments(docs: list[Document]):
         )
 
 
-move_attachments(transgender_docs)
+move_attachments(gender_docs)
 move_attachments(sexuality_docs)
 move_attachments(video_docs)
 move_attachments(other_docs)
