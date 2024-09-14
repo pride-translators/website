@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import '../../lib/document.css';
-	import '../../lib/normalize.css';
 
 	export let data;
 	const { title } = data;
