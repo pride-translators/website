@@ -35,8 +35,9 @@
 	}
 
 	.wrapper {
-		padding: 5px 20px;
 		max-width: 800px;
+		padding: 5px 20px;
+		padding-bottom: 20px;
 
 		.button-section {
 			display: flex;

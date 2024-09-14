@@ -5,7 +5,6 @@
 	import { page } from '$app/stores';
 	import { fullList } from '$lib/documentList';
 	import { base } from '$app/paths';
-	import { browser } from '$app/environment';
 
 	let selectedOption: Category;
 	let list: TranslatedDocument[];
@@ -94,6 +93,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 50px;
+		padding: 0px 10px;
 
 		@media only screen and (max-width: 590px) {
 			justify-content: stretch;
