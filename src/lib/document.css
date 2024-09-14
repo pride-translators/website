@@ -19,3 +19,7 @@ h5:first-child,
 h6:first-child {
 	margin-top: 0.5em;
 }
+
+:root {
+	line-height: 1.5;
+}

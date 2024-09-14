@@ -72,7 +72,10 @@
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		min-height: 1200px;
+		row-gap: 80px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+		/* min-height: 1300px; */
 	}
 
 	.max-width-690 {
