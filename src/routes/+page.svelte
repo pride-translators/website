@@ -72,8 +72,7 @@
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		/* height: 125vh; */
-		min-height: 1300px;
+		min-height: 1200px;
 	}
 
 	.max-width-690 {
