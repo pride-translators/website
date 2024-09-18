@@ -2,16 +2,16 @@ import type { FullList, TranslatedDocument } from './types';
 
 const gender: TranslatedDocument[] = [
 	{
-		title: '젠더 정체성 이해하기',
-		titleURL: '/documents/gender/understanding_gender_identities',
-		source: 'The Trevor Project',
-		sourceURL: 'https://www.thetrevorproject.org/'
-	},
-	{
 		title: '트랜스젠더에 대해 자주 질문되는 내용들',
 		titleURL: '/documents/gender/frequently_asked_questions_about_transgender_people',
 		source: 'National Center for Transgender Equality',
 		sourceURL: 'https://transequality.org/'
+	},
+	{
+		title: '젠더 정체성 이해하기',
+		titleURL: '/documents/gender/understanding_gender_identities',
+		source: 'The Trevor Project',
+		sourceURL: 'https://www.thetrevorproject.org/'
 	},
 	{
 		title: '논바이너리들 이해하기: 존중하고 지지해주는 방법',
@@ -42,16 +42,16 @@ const sexuality: TranslatedDocument[] = [
 		sourceURL: 'https://www.thetrevorproject.org/'
 	},
 	{
-		title: '무성애자 공동체 이해하기',
-		titleURL: '/documents/sexuality/understanding_the_asexual_community',
-		source: 'Human Rights Campaign',
-		sourceURL: 'https://www.hrc.org/'
-	},
-	{
 		title: '무성애가 마침내 의료적 낙인에서 벗어나고 있다',
 		titleURL: '/documents/sexuality/asexuality_is_finally_breaking_free_from_medical_stigma',
 		source: 'Scientific American',
 		sourceURL: 'https://www.scientificamerican.com/'
+	},
+	{
+		title: '무성애자 공동체 이해하기',
+		titleURL: '/documents/sexuality/understanding_the_asexual_community',
+		source: 'Human Rights Campaign',
+		sourceURL: 'https://www.hrc.org/'
 	}
 ];
 

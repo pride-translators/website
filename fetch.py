@@ -57,14 +57,14 @@ class Document(TypedDict):
 
 gender_docs = [
     Document(
-        source_file_directory="./documents/gender-learning-resources/the_trevor_project/understanding_gender_identities.md",
-        destination_file_directory="./src/routes/documents/gender/understanding_gender_identities/+page.md",
+        source_file_directory="./documents/gender-learning-resources/NCTE/frequently_asked_questions_about_transgender_people.md",
+        destination_file_directory="./src/routes/documents/gender/frequently_asked_questions_about_transgender_people/+page.md",
         replacements=None,
         attachment_folder_name=None,
     ),
     Document(
-        source_file_directory="./documents/gender-learning-resources/NCTE/frequently_asked_questions_about_transgender_people.md",
-        destination_file_directory="./src/routes/documents/gender/frequently_asked_questions_about_transgender_people/+page.md",
+        source_file_directory="./documents/gender-learning-resources/APA/transgender_people_gender_identity_gender_expression.md",
+        destination_file_directory="./src/routes/documents/gender/transgender_people_gender_identity_gender_expression/+page.md",
         replacements=None,
         attachment_folder_name=None,
     ),
@@ -75,11 +75,11 @@ gender_docs = [
         attachment_folder_name=None,
     ),
     Document(
-        source_file_directory="./documents/gender-learning-resources/APA/transgender_people_gender_identity_gender_expression.md",
-        destination_file_directory="./src/routes/documents/gender/transgender_people_gender_identity_gender_expression/+page.md",
+        source_file_directory="./documents/gender-learning-resources/the_trevor_project/understanding_gender_identities.md",
+        destination_file_directory="./src/routes/documents/gender/understanding_gender_identities/+page.md",
         replacements=None,
         attachment_folder_name=None,
-    )
+    ),
 ]
 
 sexuality_docs = [
