@@ -40,7 +40,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 		padding: 0px 10px;
 
 		@media only screen and (max-width: 590px) {
