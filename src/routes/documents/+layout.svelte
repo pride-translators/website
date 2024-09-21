@@ -31,7 +31,10 @@
 	.center {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+
+		@media only screen and (min-width: 800px) {
+			align-items: center;
+		}
 	}
 
 	.wrapper {
