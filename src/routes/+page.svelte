@@ -28,9 +28,9 @@
 		</div>
 		<p>
 			LGBTQIA+는 레즈비언<sup>(Lesbian)</sup>, 게이<sup>(Gay)</sup>, 양성애자<sup>(Bisexual)</sup>,
-			트랜스젠더<sup>(Transgender)</sup>, 퀴어/질문 중 <sup>(Queer/Questioning)</sup>, 무성애자<sup
-				>(Asexual)</sup
-			> 의 줄임말입니다.
+			트랜스젠더<sup>(Transgender)</sup>, 퀴어/질문 중 <sup>(Queer/Questioning)</sup>, 간성<sup
+				>(Intersex)</sup
+			>, 무성애자<sup>(Asexual)</sup> 의 줄임말입니다.
 		</p>
 	</div>
 
