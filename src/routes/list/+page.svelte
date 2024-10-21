@@ -3,9 +3,8 @@
 	import Close from '$lib/icons/Close.svelte';
 	import type { FullList, TranslatedDocument } from '$lib/types';
 	import { base } from '$app/paths';
-	import { browser } from '$app/environment';
 
-	const newList: TranslatedDocument[] = [];
+	const newList: TranslatedDocument[] = $state([]);
 	for (const key of Object.keys(fullList)) {
 		for (const item of fullList[key as keyof FullList]) {
 			newList.push(item);

@@ -6,9 +6,10 @@
 	import { fullList } from '$lib/documentList';
 	import { base } from '$app/paths';
 
-	let selectedOption: Category;
-	let list: TranslatedDocument[];
-	$: {
+	let selectedOption: Category = $state(Category.Gender);
+	let list: TranslatedDocument[] = $state([]);
+
+	$effect(() => {
 		const category = $page.url.searchParams.get('category');
 
 		if (category) {
@@ -39,7 +40,7 @@
 		}
 
 		list = fullList[selectedOption as keyof FullList];
-	}
+	});
 </script>
 
 <div class="wrapper">

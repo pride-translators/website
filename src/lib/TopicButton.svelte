@@ -1,8 +1,12 @@
 <script lang="ts">
-	export let text: string;
-	export let url: string;
-	export let selected: boolean;
 	import { base } from '$app/paths';
+
+	interface Props {
+		text: string;
+		url: string;
+		selected: boolean;
+	}
+	let { text, url, selected }: Props = $props();
 </script>
 
 <a href="{base}{url}" class="no-text-decoration">
