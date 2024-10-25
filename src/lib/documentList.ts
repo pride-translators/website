@@ -52,6 +52,12 @@ const sexuality: TranslatedDocument[] = [
 		titleURL: '/documents/sexuality/understanding_the_asexual_community',
 		source: 'Human Rights Campaign',
 		sourceURL: 'https://www.hrc.org/'
+	},
+	{
+		title: '양성애 이해하기',
+		titleURL: '/documents/sexuality/understanding_bisexuality',
+		source: 'The Trevor Project',
+		sourceURL: 'https://www.thetrevorproject.org/'
 	}
 ];
 

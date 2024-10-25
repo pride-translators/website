@@ -108,6 +108,12 @@ sexuality_docs = [
             ("./attachments", f"{path}/asexuality_is_finally_breaking_free_from_medical_stigma")],
         attachment_folder_name="asexuality_is_finally_breaking_free_from_medical_stigma",
     ),
+    Document(
+        source_file_directory="./documents/sexuality-learning-resources/the_trevor_project/understanding_bisexuality.md",
+        destination_file_directory="./src/routes/documents/sexuality/understanding_bisexuality/+page.md",
+        replacements=None,
+        attachment_folder_name=None,
+    ),
 ]
 
 
