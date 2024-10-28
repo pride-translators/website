@@ -1,9 +1,18 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { onMount } from 'svelte';
 	import '../../lib/document.css';
 
-	export let data;
+	let { data } = $props();
 	const { title } = data;
+
+	onMount(() => {
+		const iconLink = document.querySelectorAll('.icon-link');
+
+		iconLink.forEach((item) => {
+			item.innerHTML = '#';
+		});
+	});
 </script>
 
 <div class="center">

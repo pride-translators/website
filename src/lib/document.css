@@ -62,3 +62,12 @@ h6 + h6 {
 body {
 	padding: 0;
 }
+
+h1 .icon-link {
+	display: none;
+}
+.icon-link {
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+}
