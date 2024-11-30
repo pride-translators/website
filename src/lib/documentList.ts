@@ -76,7 +76,7 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@DoctorYoun'
 	},
 	{
-		title: '저는 트랜스젠더예요',
+		title: '저는 트랜스젠더에요',
 		titleURL: '/documents/videos/im_transgender',
 		source: 'stodybooth',
 		sourceURL: 'https://www.youtube.com/@Storybooth'
