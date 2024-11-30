@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import '../../lib/document.css';
 
-	let { data } = $props();
+	let { data, children } = $props();
 	const { title } = data;
 
 	onMount(() => {
@@ -25,7 +25,7 @@
 		</div>
 
 		<div>
-			<slot />
+			{@render children()}
 		</div>
 	</div>
 </div>
