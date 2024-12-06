@@ -136,6 +136,12 @@ video_docs = [
         replacements=None,
         attachment_folder_name=None
     ),
+    Document(
+        source_file_directory="./documents/lgbtqia-videos/psych2go/sex_vs_gender_orientation.md",
+        destination_file_directory="./src/routes/documents/videos/sex_vs_gender_orientation/+page.md",
+        replacements=None,
+        attachment_folder_name=None
+    ),
 ]
 
 other_docs = [

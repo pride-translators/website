@@ -80,6 +80,12 @@ const videos: TranslatedDocument[] = [
 		titleURL: '/documents/videos/im_transgender',
 		source: 'stodybooth',
 		sourceURL: 'https://www.youtube.com/@Storybooth'
+	},
+	{
+		title: '성 VS 젠더 VS 지향성',
+		titleURL: '/documents/videos/sex_vs_gender_orientation',
+		source: 'Psych2Go',
+		sourceURL: 'https://www.youtube.com/@Psych2go'
 	}
 ];
 const others: TranslatedDocument[] = [
