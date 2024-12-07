@@ -37,8 +37,8 @@
 		name="twitter:description"
 		content={excerpt ?? 'LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들.'}
 	/>
-	<meta name="twitter:title" content="{base}/logo512.png" />
-	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="{base}/thumbnail.png" />
+	<meta name="twitter:card" content="summary" />
 
 	<link rel="apple-touch-icon" href="{base}/logo512.png" />
 </svelte:head>
