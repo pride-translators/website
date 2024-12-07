@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	let { children } = $props();
 </script>
 
-<slot />
+{@render children()}
 
 <svelte:head>
 	<meta charset="UTF-8" />

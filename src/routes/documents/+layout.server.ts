@@ -17,7 +17,8 @@ export const load = (async ({ route }) => {
 
 	if (post.metadata?.title) {
 		return {
-			title: post.metadata?.title
+			title: post.metadata?.title,
+			excerpt: post.metadata?.excerpt
 		};
 	} else {
 		return {};
