@@ -54,7 +54,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="프라이드 번역가" />
 	<meta property="og:description" content="LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들." />
-	<meta property="og:image" content="{base}/logo512.png" />
+	<meta property="og:image" content="{base}/thumbnail.png" />
 	<meta property="og:url" content="https://pride-translators.github.io/website" />
 
 	<meta name="twitter:title" content="프라이드 번역가" />
