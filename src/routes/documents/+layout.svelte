@@ -15,21 +15,6 @@
 	});
 </script>
 
-<div class="center">
-	<div class="wrapper">
-		<div class="button-section">
-			<a href="{base}/" class="go-home no-decoration">
-				<div class="icon">🏳️‍🌈</div>
-				<p>홈으로</p>
-			</a>
-		</div>
-
-		<div>
-			{@render children()}
-		</div>
-	</div>
-</div>
-
 <svelte:head>
 	<title>프라이드 번역가 - {title}</title>
 	<meta name="description" content={excerpt ?? 'LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들.'} />
@@ -45,6 +30,21 @@
 		content={excerpt ?? 'LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들.'}
 	/>
 </svelte:head>
+
+<div class="center">
+	<div class="wrapper">
+		<div class="button-section">
+			<a href="{base}/" class="go-home no-decoration">
+				<div class="icon">🏳️‍🌈</div>
+				<p>홈으로</p>
+			</a>
+		</div>
+
+		<div>
+			{@render children()}
+		</div>
+	</div>
+</div>
 
 <style lang="scss">
 	.center {

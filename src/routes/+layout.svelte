@@ -3,8 +3,6 @@
 	let { children } = $props();
 </script>
 
-{@render children()}
-
 <svelte:head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,3 +36,5 @@
 		gtag('config', 'G-DLGKJF181X');
 	</script>
 </svelte:head>
+
+{@render children()}
