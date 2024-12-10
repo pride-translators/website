@@ -19,12 +19,12 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>프라이드 번역가 - {title}</title>
+	<title>{title} - 프라이드 번역가</title>
 	<meta name="theme-color" content="#959595" />
 	<meta name="description" content={excerpt ?? 'LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들.'} />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="프라이드 번역가 - {title}" />
+	<meta property="og:title" content="{title} - 프라이드 번역가" />
 	<meta
 		property="og:description"
 		content={excerpt ?? 'LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들.'}
@@ -32,7 +32,7 @@
 	<meta property="og:image" content="{base}/thumbnail.png" />
 	<meta property="og:url" content="https://pride-translators.github.io/website" />
 
-	<meta name="twitter:title" content="프라이드 번역가 - {title}" />
+	<meta name="twitter:title" content="{title} - 프라이드 번역가" />
 	<meta
 		name="twitter:description"
 		content={excerpt ?? 'LGBTQIA+ 관련 자료를 한국어로 번역하는 사람들.'}
