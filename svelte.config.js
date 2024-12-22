@@ -32,7 +32,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/website'
+			base: process.argv.includes('dev') ? '' : ''
 		}
 	}
 };

@@ -4,7 +4,7 @@ import shutil
 import subprocess
 import sys
 
-path = '' if 'dev' in sys.argv else '/website'
+path = '' if 'dev' in sys.argv else ''
 
 # Empty and refill "./documents" folder
 shutil.rmtree("./documents", ignore_errors=True)
