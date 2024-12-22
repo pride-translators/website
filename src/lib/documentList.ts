@@ -63,7 +63,7 @@ const sexuality: TranslatedDocument[] = [
 
 const videos: TranslatedDocument[] = [
 	{
-		title: '팀쿡: 게이가 되어도 괜찮다고 보여주고 싶었다',
+		title: '팀쿡: 아이들에게 게이가 되어도 괜찮다고 보여주고 싶었다',
 		titleURL: '/documents/videos/wanted_to_show_kids_it_is_ok_to_be_gay',
 		source: 'CNN',
 		sourceURL: 'https://www.youtube.com/@CNN'
