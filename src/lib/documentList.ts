@@ -63,6 +63,12 @@ const sexuality: TranslatedDocument[] = [
 
 const videos: TranslatedDocument[] = [
 	{
+		title: '성별 VS 젠더 VS 지향성',
+		titleURL: '/documents/videos/sex_vs_gender_orientation',
+		source: 'Psych2Go',
+		sourceURL: 'https://www.youtube.com/@Psych2go'
+	},
+	{
 		title: '팀쿡: 아이들에게 게이가 되어도 괜찮다고 보여주고 싶었다',
 		titleURL: '/documents/videos/wanted_to_show_kids_it_is_ok_to_be_gay',
 		source: 'CNN',
@@ -80,12 +86,6 @@ const videos: TranslatedDocument[] = [
 		titleURL: '/documents/videos/im_transgender',
 		source: 'storybooth',
 		sourceURL: 'https://www.youtube.com/@Storybooth'
-	},
-	{
-		title: '성별 VS 젠더 VS 지향성',
-		titleURL: '/documents/videos/sex_vs_gender_orientation',
-		source: 'Psych2Go',
-		sourceURL: 'https://www.youtube.com/@Psych2go'
 	}
 ];
 const others: TranslatedDocument[] = [
