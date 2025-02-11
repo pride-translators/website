@@ -71,3 +71,11 @@ h1 .icon-link {
 	width: 30px;
 	height: 30px;
 }
+
+.body {
+	iframe {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16/9;
+	}
+}

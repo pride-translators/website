@@ -52,7 +52,7 @@
 			</a>
 		</div>
 
-		<div>
+		<div class="body">
 			{@render children()}
 		</div>
 	</div>
