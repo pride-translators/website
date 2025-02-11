@@ -79,3 +79,8 @@ h1 .icon-link {
 		aspect-ratio: 16/9;
 	}
 }
+
+iframe {
+	border-radius: 15px;
+	overflow: hidden;
+}
