@@ -75,7 +75,7 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@CNN'
 	},
 	{
-		title: '트랜스젠더, 젠더 불쾌감, 그리고 젠더 획일화 치료에 대해 학계는 어떻게 말하는가',
+		title: '트랜스젠더, 젠더 불쾌감, 그리고 젠더 확정 치료에 대해 학계는 어떻게 말하는가',
 		titleURL:
 			'/documents/videos/what-studies-say-about-transgender-gender-dysphoria-and-gender-affirming-care',
 		source: 'Doctor Youn',
