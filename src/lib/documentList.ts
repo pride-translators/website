@@ -75,6 +75,12 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@CNN'
 	},
 	{
+		title: '트랜스젠더인 것에 대한 과학',
+		titleURL: '/documents/videos/the_science_of_being_transgender',
+		source: 'Powered By Rainbows™',
+		sourceURL: 'https://www.youtube.com/@PoweredByRainbows'
+	},
+	{
 		title: '트랜스젠더, 젠더 불쾌감, 그리고 젠더 확정 치료에 대해 학계는 어떻게 말하는가',
 		titleURL:
 			'/documents/videos/what-studies-say-about-transgender-gender-dysphoria-and-gender-affirming-care',

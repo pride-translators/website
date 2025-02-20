@@ -142,6 +142,12 @@ video_docs = [
         replacements=None,
         attachment_folder_name=None
     ),
+    Document(
+        source_file_directory="./documents/lgbtqia-videos/powered_by_rainbows/the_science_of_being_transgender.md",
+        destination_file_directory="./src/routes/documents/videos/the_science_of_being_transgender/+page.md",
+        replacements=None,
+        attachment_folder_name=None
+    ),
 ]
 
 other_docs = [
