@@ -25,6 +25,13 @@ const gender: TranslatedDocument[] = [
 		titleURL: '/documents/gender/transgender_people_gender_identity_gender_expression',
 		source: 'American Psychological Association',
 		sourceURL: 'https://www.apa.org/'
+	},
+	{
+		title:
+			"그래미 시상 동안 레이디 가가는 '트랜스젠더들은 투명인간이 아니다'라고 말한다: '트랜스젠더들은 사랑받을 자격이 있습니다.'",
+		titleURL: '/documents/gender/lady_gaga_says_trans_people_are_not_invisible_during_grammy_win',
+		source: 'Variety',
+		sourceURL: 'https://variety.com/'
 	}
 ];
 

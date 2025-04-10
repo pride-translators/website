@@ -80,6 +80,12 @@ gender_docs = [
         replacements=None,
         attachment_folder_name=None,
     ),
+    Document(
+        source_file_directory="./documents/gender-learning-resources/variety/lady_gaga_says_trans_people_are_not_invisible_during_grammy_win.md",
+        destination_file_directory="./src/routes/documents/gender/lady_gaga_says_trans_people_are_not_invisible_during_grammy_win/+page.md",
+        replacements=None,
+        attachment_folder_name=None,
+    ),
 ]
 
 sexuality_docs = [
