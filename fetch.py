@@ -16,6 +16,7 @@ repositories = [
     "the-coming-out-handbook",
     "lgbtqia-videos",
     "flags-of-the-lgbtqia-community",
+    "lady-gaga-says-trans-rights",
 ]
 for repository in repositories:
     subprocess.run([
@@ -83,12 +84,6 @@ gender_docs = [
     Document(
         source_file_directory="./documents/gender-learning-resources/the_trevor_project/understanding_gender_identities.md",
         destination_file_directory="./src/routes/documents/gender/understanding_gender_identities/+page.md",
-        replacements=None,
-        attachment_folder_name=None,
-    ),
-    Document(
-        source_file_directory="./documents/gender-learning-resources/variety/lady_gaga_says_trans_people_are_not_invisible_during_grammy_win.md",
-        destination_file_directory="./src/routes/documents/gender/lady_gaga_says_trans_people_are_not_invisible_during_grammy_win/+page.md",
         replacements=None,
         attachment_folder_name=None,
     ),
@@ -176,6 +171,12 @@ other_docs = [
         replacements=[
             ("./attachments", f"{path}/flags-of-the-lgbtqia-community")],
         attachment_folder_name="flags-of-the-lgbtqia-community"
+    ),
+    Document(
+        source_file_directory="./documents/lady-gaga-says-trans-rights/README.md",
+        destination_file_directory="./src/routes/documents/others/lady-gaga-says-trans-rights/+page.md",
+        replacements=None,
+        attachment_folder_name=None,
     ),
 ]
 
