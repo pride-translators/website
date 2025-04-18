@@ -57,6 +57,12 @@ class Document(TypedDict):
 
 gender_docs = [
     Document(
+        source_file_directory="./documents/gender-learning-resources/NCTE/understanding_transgender_people_the_basics.md",
+        destination_file_directory="./src/routes/documents/gender/understanding_transgender_people_the_basics/+page.md",
+        replacements=None,
+        attachment_folder_name=None,
+    ),
+    Document(
         source_file_directory="./documents/gender-learning-resources/NCTE/frequently_asked_questions_about_transgender_people.md",
         destination_file_directory="./src/routes/documents/gender/frequently_asked_questions_about_transgender_people/+page.md",
         replacements=None,

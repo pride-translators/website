@@ -2,6 +2,12 @@ import type { FullList, TranslatedDocument } from './types';
 
 const gender: TranslatedDocument[] = [
 	{
+		title: '트랜스젠더들 이해하기: 기초',
+		titleURL: '/documents/gender/understanding_transgender_people_the_basics',
+		source: 'National Center for Transgender Equality',
+		sourceURL: 'https://transequality.org/'
+	},
+	{
 		title: '트랜스젠더에 대해 자주 질문되는 내용들',
 		titleURL: '/documents/gender/frequently_asked_questions_about_transgender_people',
 		source: 'National Center for Transgender Equality',
