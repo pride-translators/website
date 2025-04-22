@@ -94,6 +94,12 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@DoctorYoun'
 	},
 	{
+		title: '무성애자들에 관해 사람들이 가지는 10가지 오해',
+		titleURL: '/documents/videos/10_things_people_get_wrong_about_asexual_people',
+		source: 'Psych2Go',
+		sourceURL: 'https://www.youtube.com/@Psych2go'
+	},
+	{
 		title: '저는 트랜스젠더에요',
 		titleURL: '/documents/videos/im_transgender',
 		source: 'storybooth',

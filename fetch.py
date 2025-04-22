@@ -155,6 +155,12 @@ video_docs = [
         replacements=None,
         attachment_folder_name=None
     ),
+    Document(
+        source_file_directory="./documents/lgbtqia-videos/psych2go/10_things_people_get_wrong_about_asexual_people.md",
+        destination_file_directory="./src/routes/documents/videos/10_things_people_get_wrong_about_asexual_people/+page.md",
+        replacements=None,
+        attachment_folder_name=None
+    ),
 ]
 
 other_docs = [
