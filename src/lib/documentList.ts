@@ -33,7 +33,7 @@ const gender: TranslatedDocument[] = [
 		sourceURL: 'https://www.apa.org/'
 	},
 	{
-		title: '트랜스젠더의 뇌는 어린 시기부터 갈망하는 젠더의 뇌와 더 유사하다',
+		title: '어린 시기부터 트랜스젠더의 뇌는 갈망하는 젠더의 뇌와 더 유사하다',
 		titleURL:
 			'/documents/gender/transgender_brains_are_more_like_their_desired_gender_from_an_early_age',
 		source: 'Science Daily',
