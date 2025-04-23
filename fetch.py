@@ -87,6 +87,12 @@ gender_docs = [
         replacements=None,
         attachment_folder_name=None,
     ),
+    Document(
+        source_file_directory="./documents/gender-learning-resources/science_daily/transgender_brains_are_more_like_their_desired_gender_from_an_early_age.md",
+        destination_file_directory="./src/routes/documents/gender/transgender_brains_are_more_like_their_desired_gender_from_an_early_age/+page.md",
+        replacements=None,
+        attachment_folder_name=None,
+    ),
 ]
 
 sexuality_docs = [
