@@ -127,6 +127,13 @@ sexuality_docs = [
         replacements=None,
         attachment_folder_name=None,
     ),
+    Document(
+        source_file_directory="./documents/sexuality-learning-resources/cleveland_clinic/what_does_it_mean_to_be_asexual.md",
+        destination_file_directory="./src/routes/documents/sexuality/what_does_it_mean_to_be_asexual/+page.md",
+        replacements=[
+            ("./attachments", f"{path}/what_does_it_mean_to_be_asexual")],
+        attachment_folder_name="what_does_it_mean_to_be_asexual"
+    ),
 ]
 
 

@@ -49,10 +49,22 @@ const sexuality: TranslatedDocument[] = [
 		sourceURL: 'https://www.betterhealth.vic.gov.au/'
 	},
 	{
+		title: '양성애 이해하기',
+		titleURL: '/documents/sexuality/understanding_bisexuality',
+		source: 'The Trevor Project',
+		sourceURL: 'https://www.thetrevorproject.org/'
+	},
+	{
 		title: '무성애 이해하기',
 		titleURL: '/documents/sexuality/understanding_asexuality',
 		source: 'The Trevor Project',
 		sourceURL: 'https://www.thetrevorproject.org/'
+	},
+	{
+		title: '무성애자인 것이 무슨 의미인가요?',
+		titleURL: '/documents/sexuality/what_does_it_mean_to_be_asexual',
+		source: 'Cleveland Clinic',
+		sourceURL: 'https://health.clevelandclinic.org/'
 	},
 	{
 		title: '무성애가 마침내 의료적 낙인에서 벗어나고 있다',
@@ -65,12 +77,6 @@ const sexuality: TranslatedDocument[] = [
 		titleURL: '/documents/sexuality/understanding_the_asexual_community',
 		source: 'Human Rights Campaign',
 		sourceURL: 'https://www.hrc.org/'
-	},
-	{
-		title: '양성애 이해하기',
-		titleURL: '/documents/sexuality/understanding_bisexuality',
-		source: 'The Trevor Project',
-		sourceURL: 'https://www.thetrevorproject.org/'
 	}
 ];
 
