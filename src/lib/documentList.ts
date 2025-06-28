@@ -113,6 +113,12 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@Psych2go'
 	},
 	{
+		title: '트랜스젠더로서 커밍아웃하는 것은 어려운 일이야',
+		titleURL: '/documents/videos/coming_out_as_transgender_is_hard',
+		source: 'Scribbs',
+		sourceURL: 'https://www.youtube.com/@ScribblyHoots'
+	},
+	{
 		title: '저는 트랜스젠더에요',
 		titleURL: '/documents/videos/im_transgender',
 		source: 'storybooth',

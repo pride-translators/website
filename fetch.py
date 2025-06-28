@@ -174,6 +174,12 @@ video_docs = [
         replacements=None,
         attachment_folder_name=None
     ),
+    Document(
+        source_file_directory="./documents/lgbtqia-videos/scribbs/coming_out_as_transgender_is_hard.md",
+        destination_file_directory="./src/routes/documents/videos/coming_out_as_transgender_is_hard/+page.md",
+        replacements=None,
+        attachment_folder_name=None
+    ),
 ]
 
 other_docs = [
