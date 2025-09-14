@@ -17,6 +17,7 @@ repositories = [
     "lgbtqia-videos",
     "flags-of-the-lgbtqia-community",
     "lady-gaga-says-trans-rights",
+    "celeste-madeline-transgender-confirmed-important"
 ]
 for repository in repositories:
     subprocess.run([
@@ -202,6 +203,13 @@ other_docs = [
         destination_file_directory="./src/routes/documents/others/lady-gaga-says-trans-rights/+page.md",
         replacements=None,
         attachment_folder_name=None,
+    ),
+    Document(
+        source_file_directory="./documents/celeste-madeline-transgender-confirmed-important/README.md",
+        destination_file_directory="./src/routes/documents/others/celeste-madeline-transgender-confirmed-important/+page.md",
+        replacements=[
+            ("./attachments", f"{path}/celeste-madeline-transgender-confirmed-important")],
+        attachment_folder_name="celeste-madeline-transgender-confirmed-important"
     ),
 ]
 

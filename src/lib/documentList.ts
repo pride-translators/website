@@ -139,6 +139,12 @@ const others: TranslatedDocument[] = [
 		sourceURL: 'https://outrightinternational.org/'
 	},
 	{
+		title: '왜 셀레스트의 주인공이 트랜스젠더라고 확정되는 것이 중요한가',
+		titleURL: '/documents/others/celeste-madeline-transgender-confirmed-important',
+		source: 'CBR',
+		sourceURL: 'https://www.cbr.com/'
+	},
+	{
 		title:
 			"그래미 시상 동안 레이디 가가는 '트랜스젠더들은 투명인간이 아니다'라고 말한다: '트랜스젠더들은 사랑받을 자격이 있습니다.'",
 		titleURL: '/documents/others/lady-gaga-says-trans-rights',
