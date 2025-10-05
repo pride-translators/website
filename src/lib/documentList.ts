@@ -150,6 +150,13 @@ const others: TranslatedDocument[] = [
 		titleURL: '/documents/others/lady-gaga-says-trans-rights',
 		source: 'Variety',
 		sourceURL: 'https://variety.com/'
+	},
+	{
+		title:
+			"Node.js LGBTQIA+ 서사: Emelia Smith",
+		titleURL: '/documents/others/nodejs-lgbtqia-stories-emelia-smith',
+		source: 'Node.js Blog',
+		sourceURL: 'https://nodejs.org/en/blog/'
 	}
 ];
 
