@@ -152,8 +152,13 @@ const others: TranslatedDocument[] = [
 		sourceURL: 'https://variety.com/'
 	},
 	{
-		title:
-			"Node.js LGBTQIA+ 서사: Emelia Smith",
+		title: '친구모아 아일랜드 두근두근 라이프"는 동성 관계와 논바이너리 미를 허용한다',
+		titleURL: '/documents/others/tomodachi-life-same-sex-relationships-and-non-binary-miis',
+		source: 'nintendolife',
+		sourceURL: 'https://www.nintendolife.com/'
+	},
+	{
+		title: 'Node.js LGBTQIA+ 서사: Emelia Smith',
 		titleURL: '/documents/others/nodejs-lgbtqia-stories-emelia-smith',
 		source: 'Node.js Blog',
 		sourceURL: 'https://nodejs.org/en/blog/'
