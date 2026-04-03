@@ -47,7 +47,9 @@
 	<div class="wrapper">
 		<div class="button-section">
 			<a href="{base}/" class="go-home no-decoration">
-				<div class="icon">🏳️‍🌈</div>
+				<div class="icon">
+					<img class="logo" src="{base}/logo512-transparent.png" alt="프라이드 번역가 로고" />
+				</div>
 				<p>홈으로</p>
 			</a>
 		</div>
@@ -85,10 +87,18 @@
 				flex-direction: row;
 				align-items: center;
 				color: var(--text-color);
+									margin-top: 10px;
 
 				.icon {
 					font-size: 35px;
 					transition: transform 0.15s ease-in-out;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					.logo {
+						height: 50px;
+					}
 				}
 
 				&:hover {

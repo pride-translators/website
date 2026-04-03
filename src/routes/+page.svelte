@@ -30,7 +30,9 @@
 
 <div class="top">
 	<div class="title-section-1 max-width-690">
-		<h2 class="icon">🏳️‍🌈</h2>
+		<h2 class="icon">
+			<img class="logo" src="{base}/logo512-transparent.png" alt="프라이드 번역가 로고" />
+		</h2>
 		<div class="headings">
 			<h2>저희는</h2>
 			<h2><b>프라이드 번역가</b>입니다.</h2>
@@ -89,6 +91,10 @@
 </div>
 
 <style lang="scss">
+	.logo {
+		height: 90px;
+	}
+
 	.top {
 		display: flex;
 		flex-direction: column;
