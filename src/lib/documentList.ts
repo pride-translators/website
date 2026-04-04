@@ -2,13 +2,13 @@ import type { FullList, TranslatedDocument } from './types';
 
 const gender: TranslatedDocument[] = [
 	{
-		title: '트랜스젠더들 이해하기: 기초',
+		title: '트랜스젠더인 이해하기: 기초',
 		titleURL: '/documents/gender/understanding_transgender_people_the_basics',
 		source: 'National Center for Transgender Equality',
 		sourceURL: 'https://transequality.org/'
 	},
 	{
-		title: '트랜스젠더에 대해 자주 질문되는 내용들',
+		title: '트랜스젠더인에 대해 자주 질문되는 내용들',
 		titleURL: '/documents/gender/frequently_asked_questions_about_transgender_people',
 		source: 'National Center for Transgender Equality',
 		sourceURL: 'https://transequality.org/'
@@ -20,7 +20,7 @@ const gender: TranslatedDocument[] = [
 		sourceURL: 'https://www.thetrevorproject.org/'
 	},
 	{
-		title: '논바이너리들 이해하기: 존중하고 지지해주는 방법',
+		title: '논바이너리인 이해하기: 존중하고 지지해주는 방법',
 		titleURL:
 			'/documents/gender/understanding_nonbinary_people_how_to_be_respectful_and_supportive',
 		source: 'National Center for Transgender Equality',
@@ -33,7 +33,7 @@ const gender: TranslatedDocument[] = [
 		sourceURL: 'https://www.apa.org/'
 	},
 	{
-		title: '어린 시기부터 트랜스젠더의 뇌는 갈망하는 젠더의 뇌와 더 유사하다',
+		title: '어린 시기부터 트랜스젠더인의 뇌는 갈망하는 젠더의 뇌와 더 유사하다',
 		titleURL:
 			'/documents/gender/transgender_brains_are_more_like_their_desired_gender_from_an_early_age',
 		source: 'Science Daily',
@@ -113,13 +113,13 @@ const videos: TranslatedDocument[] = [
 		sourceURL: 'https://www.youtube.com/@Psych2go'
 	},
 	{
-		title: '트랜스젠더로서 커밍아웃하는 것은 어려운 일이야',
+		title: '트랜스젠더인으로서 커밍아웃하는 것은 어려운 일이야',
 		titleURL: '/documents/videos/coming_out_as_transgender_is_hard',
 		source: 'Scribbs',
 		sourceURL: 'https://www.youtube.com/@ScribblyHoots'
 	},
 	{
-		title: '저는 트랜스젠더에요',
+		title: '저는 트랜스젠더인이에요',
 		titleURL: '/documents/videos/im_transgender',
 		source: 'storybooth',
 		sourceURL: 'https://www.youtube.com/@Storybooth'
@@ -139,14 +139,14 @@ const others: TranslatedDocument[] = [
 		sourceURL: 'https://outrightinternational.org/'
 	},
 	{
-		title: '왜 셀레스트의 주인공이 트랜스젠더라고 확정되는 것이 중요한가',
+		title: '왜 셀레스트의 주인공이 트랜스젠더인으로 확정되는 것이 중요한가',
 		titleURL: '/documents/others/celeste-madeline-transgender-confirmed-important',
 		source: 'CBR',
 		sourceURL: 'https://www.cbr.com/'
 	},
 	{
 		title:
-			"그래미 시상 동안 레이디 가가는 '트랜스젠더들은 투명인간이 아니다'라고 말한다: '트랜스젠더들은 사랑받을 자격이 있습니다.'",
+			"그래미 시상 동안 레이디 가가는 '트랜스젠더인들은 투명인간이 아니다'라고 말한다: '트랜스젠더인들은 사랑받을 자격이 있습니다.'",
 		titleURL: '/documents/others/lady-gaga-says-trans-rights',
 		source: 'Variety',
 		sourceURL: 'https://variety.com/'
