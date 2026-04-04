@@ -48,7 +48,7 @@
 		<h2 class="icon">🙋‍♀️</h2>
 		<div class="headings">
 			<h2><b>LGBTQIA+</b></h2>
-			<h2>가 뭔가요?</h2>
+			<h2>가 무엇인가요?</h2>
 		</div>
 		<p>
 			LGBTQIA+는 레즈비언<sup>(Lesbian)</sup>, 게이<sup>(Gay)</sup>, 양성애자<sup>(Bisexual)</sup>,
